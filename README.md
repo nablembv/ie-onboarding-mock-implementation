@@ -18,6 +18,6 @@ Your goal will be to get into our clients shoes and get a full basic BV implemen
 
 5. Install project dependencies by running the following command in the repository folder: **npm install**
 
-6. Run the server by using the command: *npm start*
+6. Run the server by using the command: **npm start**
 
 7. You can now access the site by visiting the following address: http://localhost:8080
