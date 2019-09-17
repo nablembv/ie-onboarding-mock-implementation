@@ -52,7 +52,8 @@ Notes:
 * You will need to make changes that a client will not be able to do by themselves in our backend, but that they'll request to you during an implementation.
 * Make up the product information (including IDs) for all product pages to use with DCC.
 * Create one extra product and add it to the catalog by using the XML feed instead of DCC. ALL products will need to exist and be active.
-* Emails should use In-Mail template for PIE and MPS for the submission form. As mentioned make them trigger (to your email address) using the BV Pixel.
+* Make two products be part of tyhe same Product Family. Both should have reviews. **Bonus** if one of the products is the one added using the XML Feed.
+* Emails should use In-Mail template for PIE and MPS should always be used for the submission form. As mentioned, make emails be triggered (to your email address) using the BV Pixel.
 * Try to adjust the styling configuration a bit to match the site better.
 * Add one custom Secondary Rating and one custom Question to the submission form.
 
