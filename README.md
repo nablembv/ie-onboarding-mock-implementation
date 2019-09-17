@@ -4,8 +4,8 @@ Your goal will be to get into our clients shoes and get a full basic BV implemen
 
 ## Before you start:
 
-1. Install NVM.
-   1. Run the following in a command prompt: **curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash**
+1. Install NVM. Open your command prompt and:
+   1. Run the following command: **curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash**
    2. Make sure the installation worked with: **nvm --version**
    3. Install node with: **nvm install node**
    4. Set the current node version to the one you just installed: **nvm use node**
