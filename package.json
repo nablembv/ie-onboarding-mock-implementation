@@ -1,0 +1,22 @@
+{
+    "name": "ie-onboarding-mock-implementation",
+    "version": "1.0.0",
+    "description": "Backend for TC mockup site",
+    "private": true,
+    "author": {
+        "name": "Adrian Hintze",
+        "email": "adrian.hintze@bazaarvoice.com",
+        "url": "https://github.com/adrianhintze"
+    },
+    "engines": {
+        "node": "12.10.0",
+        "npm": "6.10.3"
+    },
+    "scripts": {
+        "start": "node ./src/Main.js"
+    },
+    "dependencies": {
+        "express": "4.17.1"
+    },
+    "devDependencies": {}
+}
