@@ -2,7 +2,7 @@
 
 Your goal will be to get into our clients shoes and get a full basic BV implementation up and running.
 
-## Before you start:
+## Before you start
 
 1. Install NVM. Open your command prompt and:
    1. Run the following command: **curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash**
