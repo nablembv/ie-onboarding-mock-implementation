@@ -12,7 +12,7 @@ Your goal will be to get into our clients shoes and get a full basic BV implemen
 
 2. Set up a Github account to use for BV related projects (use your BV email address): https://github.com/
 
-3. Fork the git repository to your profile: https://github.com/adrianhintze/ie-onboarding-mock-implementation
+3. Fork the git repository to your profile: https://github.com/almighty-grim-reaper/ie-onboarding-mock-implementation
 
 4. Clone the forked repository to your local machine: https://help.github.com/en/articles/cloning-a-repository
 
