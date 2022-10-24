@@ -8,7 +8,9 @@
 
 <script type="text/javascript" src="https://web.archive.org/static/js/analytics.js"></script>
 <script type="text/javascript">archive_analytics.values.server_name="wwwb-app15.us.archive.org";archive_analytics.values.server_ms=145;</script>
+<script async src="https://apps.bazaarvoice.com/deployments/test-anchovy/main_site/staging/en_GB/bv.js"></script>
 <link type="text/css" rel="stylesheet" href="https://web.archive.org/static/css/banner-styles.css"/>
+
 
 
 
@@ -394,7 +396,14 @@ body {
         
         
         <h2 class="price" id="price-preview">
+
           <span itemprop="price">$ 10.00</span>
+          <div id="summm" data-bv-show="" data-bv-product-id="670270057"></div>
+          <script type="text/javascript">
+            setTimeout(() => {
+              document.querySelector('#summm').setAttribute("data-bv-show", "rating_summary");
+            }, 3000);
+          </script>
         </h2>
       </div>
       
@@ -452,6 +461,8 @@ body {
   <!-- Begin related product -->
 
 <div class="row">
+  <div data-bv-show="questions" data-bv-product-id="670270057"></div>
+  <div data-bv-show="reviews" data-bv-product-id="670270057"></div>
   <div class="span12">
     <h3 class="collection-title">Related products</h3>
   </div>
@@ -591,7 +602,7 @@ body {
   
   
   
-  <script>
+<!--   <script>
 
   var selectCallback = function(variant, selector) {
     if (variant && variant.available) {
@@ -617,12 +628,10 @@ body {
     
   
     // Auto-select first available variant on page load.
-    
-    
-      
-        
+  
         
         $('.single-option-selector:eq(0)').val("Full Color").trigger('change');
+        //$('option[value$='+pdp_id+']');
         
       
     
@@ -631,7 +640,7 @@ body {
 
   });
   //End product-options script
-  </script>
+  </script> -->
   
 </body>
 </html>

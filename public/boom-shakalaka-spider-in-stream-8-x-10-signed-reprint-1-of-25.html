@@ -9,6 +9,7 @@
 <script type="text/javascript" src="https://web.archive.org/static/js/analytics.js"></script>
 <script type="text/javascript">archive_analytics.values.server_name="wwwb-app17.us.archive.org";archive_analytics.values.server_ms=260;</script>
 <link type="text/css" rel="stylesheet" href="https://web.archive.org/static/css/banner-styles.css"/>
+<script async src="https://apps.bazaarvoice.com/deployments/test-anchovy/main_site/staging/en_GB/bv.js"></script>
 
 
 
@@ -22,7 +23,7 @@
   <meta name="google-site-verification" content="qz1QdS6rVpoyMM-YtWsyYCDnRLboSzXiB8iQTC9_mfs" />
 
   
-  <meta name="description" content="Hang this signed 8 x 10 reprint piece of art on your wall of choice. The Boom Shakalaka spider will delight your friends and satisfy your need for amazing hand " />
+  <meta name="description" content="Hang this signed 8 x 10 reprint piece of art on your wall of choice. The Boom Shakalaka spider will delight your friends and satisfy your need for amazing hand." />
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -394,7 +395,8 @@ body {
         
         
         <h2 class="price" id="price-preview">
-          <span itemprop="price">$ 20.00</span>
+          <span itemprop="price" onclick="$BV.ui('rr', 'submit_review',{productId : '670256189'});">$ 20.00</span>
+          <div data-bv-show="rating_summary" data-bv-product-id="670256189"></div>
         </h2>
       </div>
       
@@ -451,6 +453,8 @@ body {
   <!-- Begin related product -->
  
 <div class="row">
+  <div data-bv-show="questions" data-bv-product-id="670256189"></div>
+  <div data-bv-show="reviews" data-bv-product-id="670256189"></div>
   <div class="span12">
     <h3 class="collection-title">Related products</h3>
   </div>
@@ -589,12 +593,31 @@ body {
     </footer>
   </div>
   <!-- End footer -->
+  <script async type="text/javascript">
+
+  window.bvDCC = [
+    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhbGUiOiJlbl9HQiIsImNhdGFsb2dQcm9kdWN0cyI6W3sicHJvZHVjdElkIjoiNjcwMjU2MTg5IiwicHJvZHVjdE5hbWUiOiJTaWduZWQgUmVwcmludCA4IHggMTAgLSBGdWxsIENvbG9yIiwicHJvZHVjdERlc2NyaXB0aW9uIjoiSGFuZyB0aGlzIHNpZ25lZCA4IHggMTAgcmVwcmludCBwaWVjZSBvZiBhcnQgb24geW91ciB3YWxsIG9mIGNob2ljZS4gVGhlIEJvb20gU2hha2FsYWthIHNwaWRlciB3aWxsIGRlbGlnaHQgeW91ciBmcmllbmRzIGFuZCBzYXRpc2Z5IHlvdXIgbmVlZCBmb3IgYW1hemluZyBoYW5kLiIsInByb2R1Y3RJbWFnZVVSTCI6Imh0dHBzOi8vY2RuLnNob3BpZnkuY29tL3MvZmlsZXMvMS8wNDIyLzczNDEvcHJvZHVjdHMvYm9vbS1zaGFrYWxha2EtcmVwcmludC1jb2xvci5wbmc_X2FjY2VwdD1pbWFnZSUyRmF2aWYiLCJwcm9kdWN0UGFnZVVSTCI6Imh0dHBzOi8vaGVscC5zaG9waWZ5LmNvbS9lbi9tYW51YWwvcHJvZHVjdHMvYWRkLXVwZGF0ZS1wcm9kdWN0cyIsImJyYW5kSWQiOiJkZWxfdmVudG9zX2Rvb2RsZXMiLCJicmFuZE5hbWUiOiJEZWwgVmVudG8ncyBEb29kbGVzIiwiY2F0ZWdvcnlQYXRoIjpbeyJpZCI6ImJvb21fc2hha2FsYSIsIk5hbWUiOiJCb29tIFNoYWthbGFrYSJ9LHsiaWQiOiJzcGlkZXJfaW5fc3RyZWFtIiwiTmFtZSI6IlNwaWRlciBpbiBTdHJlYW0ifV0sImZhbWlseSI6IjI4Mzk5OTE1NyJ9XSwiaWF0IjoxNjY1NDA2MTcxfQ.BFo40fANHrZRq5TyoyZ64u6p_C9dDe1Nxgnf_jV2ZpqU8R-hpCS7f_PNtMvk5PHtQPtiLOyrDCWd42SMMaCCkIP25tmaXDTzs5V8kmpr9Z7bzMiOFEz37BmofkREk6wJRrI9ylNzrr06T-2pEKxibFeluip6VD2t6lY0Osw6li79h1nwK0RaF2k1gIh6H864siF6tvOV9QRJoFxsI07IgybGKVAAfUIEQfEyjE0bycQ9FabKdd3QtA5r1-xbrwhxgXPMt1jgxZt594tNBhrwAPvcYPlVNQY367zv9q97N8R1fNK5qGJrhjwji8P-uXVKcHedCTizZHzPTKffqdcpxw",
+    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhbGUiOiJlbl9HQiIsImNhdGFsb2dQcm9kdWN0cyI6W3sicHJvZHVjdElkIjoiNjcwMjU2MTkzIiwicHJvZHVjdE5hbWUiOiJTaWduZWQgUmVwcmludCA4IHggMTAgLSBCbGFjayBhbmQgV2hpdGUiLCJwcm9kdWN0RGVzY3JpcHRpb24iOiJIYW5nIHRoaXMgc2lnbmVkIDggeCAxMCByZXByaW50IHBpZWNlIG9mIGFydCBvbiB5b3VyIHdhbGwgb2YgY2hvaWNlLiBUaGUgQm9vbSBTaGFrYWxha2Egc3BpZGVyIHdpbGwgZGVsaWdodCB5b3VyIGZyaWVuZHMgYW5kIHNhdGlzZnkgeW91ciBuZWVkIGZvciBhbWF6aW5nIGhhbmQuIiwicHJvZHVjdEltYWdlVVJMIjoiaHR0cHM6Ly9jZG4uc2hvcGlmeS5jb20vcy9maWxlcy8xLzA0MjIvNzM0MS9wcm9kdWN0cy9ib29tLXNoYWthbGFrYS1yZXByaW50LWJ3LnBuZz9fYWNjZXB0PWltYWdlJTJGYXZpZiIsInByb2R1Y3RQYWdlVVJMIjoiaHR0cHM6Ly9oZWxwLnNob3BpZnkuY29tL2VuL21hbnVhbC9wcm9kdWN0cy9pbnZlbnRvcnkiLCJicmFuZElkIjoiZGVsX3ZlbnRvc19kb29kbGVzIiwiYnJhbmROYW1lIjoiRGVsIFZlbnRvJ3MgRG9vZGxlcyIsImNhdGVnb3J5UGF0aCI6W3siaWQiOiJib29tX3NoYWthbGEiLCJOYW1lIjoiQm9vbSBTaGFrYWxha2EifSx7ImlkIjoic3BpZGVyX2luX3N0cmVhbSIsIk5hbWUiOiJTcGlkZXIgaW4gU3RyZWFtIn1dLCJmYW1pbHkiOiIyODM5OTkxNTcifV0sImlhdCI6MTY2NTQwNjE3MX0.NMmo5E4CYKNItB3YMbbQwcVVNkjF5OWJdt7fZH8wjHE504DBTrbSoJj_wu0QfkNJpwzh76lCGeIL4M9hf-S2SRtJ0ojEaJEefYUBrmqpWC2jsOs-3VYQErgQtX6GDnO7Sjqzw3YDhZxrp7P8OvgP6gLDTS98juMOmXx7ooJdTEZMuN4e8LOasQg8nXKzijrWT2IuVClNEDDurlBnu6eF3rSaj8SIYCY_i0_YlV0zkkz7DiIQ_1BIBX3xAetvvxs-PpXLHWm5oOb9vELtx-s5tvTe1fUg5JjDHq7DNS5H7JEnQNl2T0ys9VydS2503Jn_I0PDIlr9vwxeyNf6TsyXsA",
+  ];
+
+  window.bvCallback = function (BV) {
+    for(let i = 0; i < window.bvDCC.length; i++) {
+      BV.pixel.trackEvent(
+        "CatalogUpdate",
+        {
+          type: 'Product',
+          token: window.bvDCC[i],
+        }
+      );
+    }
+  };
+  </script>
     
   <script src="https://web.archive.org/web/20151121050647js_/http://cdn.shopify.com/s/files/1/0422/7341/t/4/assets/scripts.js?4423945333732105206" type="text/javascript"></script>
   
   
   
-  <script>
+<!--   <script>
 
   var selectCallback = function(variant, selector) {
     if (variant && variant.available) {
@@ -634,7 +657,7 @@ body {
 
   });
   //End product-options script
-  </script>
+  </script> -->
   
 </body>
 </html>

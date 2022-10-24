@@ -10,7 +10,7 @@
 <script type="text/javascript">archive_analytics.values.server_name="wwwb-app1.us.archive.org";archive_analytics.values.server_ms=322;</script>
 <link type="text/css" rel="stylesheet" href="https://web.archive.org/static/css/banner-styles.css"/>
 
-
+<script async src="https://apps.bazaarvoice.com/deployments/test-anchovy/main_site/staging/en_GB/bv.js"></script>
 
   <link rel="shortcut icon" href="./static/logo.png" type="image/png" />
   <meta charset="utf-8">
@@ -367,6 +367,7 @@ body {
         
         <h2 class="price" id="price-preview">
           <span itemprop="price">$ 100.00</span>
+          <div data-bv-show="rating_summary" data-bv-product-id="670237345"></div>
         </h2>
       </div>
       
@@ -423,7 +424,10 @@ body {
 
     
 <div class="row">
+  <div data-bv-show="questions" data-bv-product-id="670237345"></div>
+  <div data-bv-show="reviews" data-bv-product-id="670237345"></div>
   <div class="span12">
+
     <h3 class="collection-title">Related products</h3>
   </div>
 </div> 
@@ -558,7 +562,58 @@ body {
     
 
   <script src="https://web.archive.org/web/20151121050653js_/http://cdn.shopify.com/s/files/1/0422/7341/t/4/assets/scripts.js?4423945333732105206" type="text/javascript"></script>
-  
+  <script async type="text/javascript">
+  // window.bvDCC = {
+  //   catalogData: {
+  //     locale: "en_GB",
+  //     catalogProducts: [
+  //       {
+  //         productId: "670237345",
+  //         productName: "Original Artwork 1 of 1",
+  //         productDescription: "Hang this original 8.5 by 11 piece of art on your wall of choice. The Boom Shakalaka spider will delight your friends and satisfy your need for original hand drawn ART. Sharpie on Paper.",
+  //         productImageURL: "https://media.bazaarvoice.com/Blog_Opt-two-copy-11-1030x618.jpg",
+  //         productPageURL: "https://localhost/boom-shakalaka-spider-in-stream-original-artwork-1-of-1.html",
+  //         brandId: "del_ventos_doodles",
+  //         brandName: "Del Vento's Doodles",
+  //         categoryPath: [
+  //           {
+  //             id: "boom_shakala",
+  //             Name: "Boom Shakalaka",
+  //           },
+  //           {
+  //             id: "spider_in_stream",
+  //             Name: "Spider in Stream",
+  //           }
+  //         ],
+  //       }
+  //     ]
+  //   }
+  // };
+
+  // window.bvCallback = function (BV) {
+  //   BV.pixel.trackEvent("CatalogUpdate", {
+  //     type: 'Product',
+  //     locale: window.bvDCC.catalogData.locale,
+  //     catalogProducts: window.bvDCC.catalogData.catalogProducts
+  //   });
+  // };
+
+  window.bvDCC = [
+    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhbGUiOiJlbl9HQiIsImNhdGFsb2dQcm9kdWN0cyI6W3sicHJvZHVjdElkIjoiNjcwMjM3MzQ1IiwicHJvZHVjdE5hbWUiOiJPcmlnaW5hbCBBcnR3b3JrIDEgb2YgMSIsInByb2R1Y3REZXNjcmlwdGlvbiI6IkhhbmcgdGhpcyBvcmlnaW5hbCA4LjUgYnkgMTEgcGllY2Ugb2YgYXJ0IG9uIHlvdXIgd2FsbCBvZiBjaG9pY2UuIFRoZSBCb29tIFNoYWthbGFrYSBzcGlkZXIgd2lsbCBkZWxpZ2h0IHlvdXIgZnJpZW5kcyBhbmQgc2F0aXNmeSB5b3VyIG5lZWQgZm9yIG9yaWdpbmFsIGhhbmQgZHJhd24gQVJULiBTaGFycGllIG9uIFBhcGVyLiIsInByb2R1Y3RJbWFnZVVSTCI6Imh0dHBzOi8vY2RuLnNob3BpZnkuY29tL3MvZmlsZXMvMS8wNDIyLzczNDEvcHJvZHVjdHMvYm9vbS1zaGFrYWxha2Etb3JpZ2luYWwucG5nPyZfYWNjZXB0PWltYWdlL2F2aWYiLCJwcm9kdWN0UGFnZVVSTCI6Imh0dHBzOi8vaGVscC5zaG9waWZ5LmNvbS9lbi9tYW51YWwvcHJvZHVjdHMvcHVyY2hhc2Utb3B0aW9ucyIsImJyYW5kSWQiOiJkZWxfdmVudG9zX2Rvb2RsZXMiLCJicmFuZE5hbWUiOiJEZWwgVmVudG8ncyBEb29kbGVzIiwiY2F0ZWdvcnlQYXRoIjpbeyJpZCI6ImJvb21fc2hha2FsYSIsIk5hbWUiOiJCb29tIFNoYWthbGFrYSJ9LHsiaWQiOiJzcGlkZXJfaW5fc3RyZWFtIiwiTmFtZSI6IlNwaWRlciBpbiBTdHJlYW0ifV19XSwiaWF0IjoxNjY1NDA1NTQyfQ.lIHuEktnsoQbtrjqnOhyfSs3CwDmvkeCKLm93yGXj9mCVdZ02z9Y_xkssJ_s72_zPv3-ZOSKh_29uUY5N_qnUiuwOFmDujDmxLkkwTpvBZP9xLOJ4wQFPHlNvoBgLxpxjbjZ5ieSurFW26d7lrzrTQLdhcGE-tBZTifzFs9Hnu-y4mxo5dzdEEAzxGTdl763d2ICzKtM-95s2eCyB6dwgMTHexmh_jcZSHe4jyrtxCyM5-1M_WenK0wzWTFogQXK58rIf1pTdPTXJzeCkOMfpSSOfDoqDfWbYktAm_dJ3GAKHCbTQ7Xn6-HOyP-6GnJ3bAsUOtINdJuw9J9m-SCqOg",
+  ];
+
+  window.bvCallback = function (BV) {
+    for(let i = 0; i < window.bvDCC.length; i++) {
+      BV.pixel.trackEvent(
+        "CatalogUpdate",
+        {
+          type: 'Product',
+          token: window.bvDCC[i],
+        }
+      );
+    }
+  };
+  </script>
   
   
   <script>
@@ -591,6 +646,7 @@ body {
         
         
         $('.single-option-selector:eq(0)').val("Default Title").trigger('change');
+
         
       
     

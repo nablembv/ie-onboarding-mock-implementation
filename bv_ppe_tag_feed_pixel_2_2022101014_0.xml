@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed xmlns="http://www.bazaarvoice.com/xs/PRR/PostPurchaseFeed/14.7">
+	<Interaction>
+		<TransactionDate>2022-10-10T14:23:24.501Z</TransactionDate>
+		<EmailAddress>nabil.lemenuel@bazaarvoice.com</EmailAddress>
+		<UserName>Nabil</UserName>
+		<Locale>en_GB</Locale>
+		<DeploymentZone>main_site</DeploymentZone>
+		<Products>
+			<Product>
+				<ExternalId>670237345</ExternalId>
+				<Name>Original Artwork 1 of 1</Name>
+				<Price>10.00</Price>
+			</Product>
+		</Products>
+	</Interaction>
+	<Interaction>
+		<TransactionDate>2022-10-10T14:53:30.825Z</TransactionDate>
+		<EmailAddress>nabil.lemenuel@bazaarvoice.com</EmailAddress>
+		<UserName>Nabil</UserName>
+		<Locale>en_GB</Locale>
+		<DeploymentZone>main_site</DeploymentZone>
+		<Products>
+			<Product>
+				<ExternalId>670237345</ExternalId>
+				<Name>Original Artwork 1 of 1</Name>
+				<Price>10.00</Price>
+			</Product>
+		</Products>
+	</Interaction>
+</Feed>

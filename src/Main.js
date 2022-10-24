@@ -9,4 +9,4 @@ app.get('/', (request, response) => {
     response.sendfile('index.html', { root: path.join(__dirname, '..', 'site') } );
 });
 
-app.listen(8080);
+app.listen(80);

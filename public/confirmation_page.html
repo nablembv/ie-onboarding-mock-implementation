@@ -29,7 +29,7 @@
   
   <link rel="canonical" href="http://www.delventosdoodles.com/pages/about" /> 
 
-  
+  <script async src="https://apps.bazaarvoice.com/deployments/test-anchovy/stephanieetnabil/production/en_GB/bv.js"></script>
 
 
   <meta property="og:type" content="website" />
@@ -303,6 +303,7 @@ body {
   </div>
   
 </div>
+<div id="order_summary"></div>
           
       </section>
       <!-- End content-->
@@ -375,7 +376,33 @@ body {
   <!-- End footer -->
     
   <script src="https://web.archive.org/web/20151120052756js_/http://cdn.shopify.com/s/files/1/0422/7341/t/4/assets/scripts.js?4423945333732105206" type="text/javascript"></script>
-  
+  <script>
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
+    });
+
+    let payload = {
+      orderId: Math.random().toString(36).slice(-8),
+      total: "100.00",
+      currency: "USD",
+      items: [
+        {
+        "name": "Printed T - XX-Large",
+        "price": "100.00",
+        "quantity": "1",
+        "productId": "670466677",
+        }
+      ],
+      email: "nabil.lemenuel@bazaarvoice.com",
+      locale: "en_GB",
+      nickname: "Nabil"
+    };
+
+    window.bvCallback = function (BV) { BV.pixel.trackTransaction(payload); };
+
+    document.querySelector('#order_summary').innerHTML = "Sent PIE: "+JSON.stringify(payload);
+ 
+  </script>
   
 </body>
 </html>
