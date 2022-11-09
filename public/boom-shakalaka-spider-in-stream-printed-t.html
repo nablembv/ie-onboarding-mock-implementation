@@ -452,7 +452,7 @@ body {
   <!-- Begin related product -->
    
 <div class="row">
-  <div data-bv-show="questions" data-bv-product-id="670466657"></div>
+  <!-- <div data-bv-show="questions" data-bv-product-id="670466657"></div> -->
   <div data-bv-show="reviews" data-bv-product-id="670466657"></div>
   <div class="span12">
     <h3 class="collection-title">Related products</h3>
@@ -599,6 +599,7 @@ body {
   
   
   <script>
+    $BV.ui('qa', 'submit_question', { productId : '670466657' });
 
   var selectCallback = function(variant, selector) {
     if (variant && variant.available) {
